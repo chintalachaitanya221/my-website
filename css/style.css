@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+}
+/* Desktop */
+body {
+  font-size: 18px;
+  padding: 40px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+header {
+  background: #002244;
+  padding: 10px 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active, nav a:hover {
+  color: gold;
+}
+
+html {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#o{
+  background: url('../images/image\ hh.jpg') no-repeat center center/cover;
+}
+#t{
+  background: url('../images/image.jpg') no-repeat center center/cover;
+}
+
+#hi{
+  text-shadow: 1px 1px 5px black;
+}
+.hero-text h1 {
+  font-size: 2.5em;
+}
+
+.highlight {
+  text-align: center;
+  padding: 40px 30px;
+  background: #fff;
+
+}
+
+.highlight img {
+  width: 80%;
+  max-width: 600px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.specialities-preview {
+  background: #eef5ff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.specialities-preview ul {
+  list-style: none;
+  padding: 0;
+}
+
+.specialities-preview li {
+  padding: 5px 0;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #002244;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: gold;
+  color: #002244;
+}
+
+footer {
+  text-align: center;
+  background: #002244;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  color: #0077ff;
+  text-align: center;
+}
+
+button {
+  background: #ff5722;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e64a19;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
